@@ -16,9 +16,9 @@ public class calctest {
 	 public void add()
 	 {
 		 int a = 12;
-		 int b = 13;
+		 int b = 15;
 		 int actual = (int)c.add(a,b);
-		 int expected = 25;
+		 int expected = 27;
 		 Assert.assertEquals(expected, actual);
 
 	 }
